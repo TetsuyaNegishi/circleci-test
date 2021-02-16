@@ -10,4 +10,7 @@ jobs:
       - run: yarn
       - run:
           name: type check
-          command: yarn type-check
+          command: yarn dev
+      - run:
+          name: curl
+          command: curl http://localhost:3000/api/users  
