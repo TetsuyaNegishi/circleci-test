@@ -7,7 +7,7 @@ jobs:
     working_directory: ~/work
     steps:
       - checkout
-      - run: yarn i
+      - run: yarn
       - run:
           name: type check
           command: yarn type-check
